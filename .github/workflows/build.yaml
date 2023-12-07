@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Change to project directory
-        run: cd $GITHUB_WORKSPACE/amazon-eks-frontend
+        run: cd $GITHUB_WORKSPACE/
 
       - name: Check Node v
         run: node -v
