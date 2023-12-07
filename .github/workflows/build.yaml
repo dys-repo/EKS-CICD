@@ -12,6 +12,9 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
 
+      - name: Change to project directory
+        run: cd ~/environment/amazon-eks-frontend
+
       - name: Check Node v
         run: node -v
 
