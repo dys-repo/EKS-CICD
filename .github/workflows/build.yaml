@@ -12,8 +12,8 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
 
-      - name: Change to project directory
-        run: cd $GITHUB_WORKSPACE/
+      - name: Find package.json file
+        run: find . -name "package.json"
 
       - name: Check Node v
         run: node -v
