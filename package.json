@@ -1,0 +1,19 @@
+{
+  "name": "amazon-eks-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/dys-repo/EKS-CICD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dys-repo/EKS-CICD/issues"
+  },
+  "homepage": "https://github.com/dys-repo/EKS-CICD#readme"
+}
